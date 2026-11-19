@@ -1,6 +1,4 @@
-﻿# Dependências enxutas de produção (API FastAPI + inferência dos pipelines .joblib)
-# 100% compatível com Linux (Render.com), Windows e macOS — sem pacotes exclusivos de SO.
-# scikit-learn é fixado na versão exata do treino para garantir paridade dos arquivos .joblib.
+﻿# scikit-learn é fixado na versão exata do treino para garantir paridade dos arquivos .joblib.
 fastapi>=0.115.0
 uvicorn[standard]>=0.30.0
 pydantic>=2.0.0
