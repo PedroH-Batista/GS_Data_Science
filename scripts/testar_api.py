@@ -27,6 +27,8 @@ def main() -> None:
         assert r_health.status_code == 200, f"Health falhou: {r_health.text}"
         health = r_health.json()
         print(f"[OK] GET /health -> status={health['status']} | UBS={health['ubs']['nome_ubs']}")
+        assert health["ubs"]["nome_ubs"] == "UBS Vila Leopoldina"
+        assert health["ubs"]["capacidade_ubs"] == 60
 
         # 2) Paridade HTTP contra os 6 casos do notebook
         print("\nTeste de Paridade HTTP (POST /predict vs. Notebook):")

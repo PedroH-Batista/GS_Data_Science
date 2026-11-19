@@ -24,10 +24,10 @@ import pandas as pd
 # ==============================================================================
 UBS_CONFIG = {
     "id_ubs": 1,
-    "nome_ubs": "UBS Cambuci",
-    "bairro": "Cambuci",
+    "nome_ubs": "UBS Vila Leopoldina",
+    "bairro": "Vila Leopoldina",
     "cidade": "São Paulo - SP",
-    "capacidade_ubs": 40,
+    "capacidade_ubs": 60,
 }
 
 SEED = 42

@@ -5,14 +5,14 @@
 | Campo | Descrição |
 |---|---|
 | **Nome da CitizenTech** | Fila Invisível |
-| **Cidade e bairro** | São Paulo – SP, bairro Cambuci *(referência: UBS Cambuci — parametrizável em `scripts/gerar_dataset.py`)* |
+| **Cidade e bairro** | São Paulo – SP, bairro Vila Leopoldina (Zona Oeste) *(referência: UBS Vila Leopoldina — parametrizável em `scripts/gerar_dataset.py`)* |
 | **Cidadão beneficiado** | Idosos (ex.: Dona Marlene, 68 anos, hipertensa, celular simples) e trabalhadores informais que dependem da UBS e não podem perder horas em filas evitáveis |
 | **Problema, em uma frase** | Moradores não sabem quando a UBS está cheia, concentram-se na abertura e perdem horas em filas evitáveis |
 | **Como funciona** | Modelos de **Regressão Linear** (tempo estimado de espera em minutos) e **Regressão Logística** (probabilidade de lotação $\ge 45$ min) preveem a lotação por dia, horário e especialidade e exibem um **semáforo simples** (Verde, Amarelo e Vermelho) indicando o melhor momento para ir |
 | **O que cada parte faz** | **Data Science** (este repositório): base calibrada, notebook estatístico completo, pipelines `.joblib` e API FastAPI de inferência; **Database**: modelagem e scripts Oracle; **DDD Java**: API Spring Boot + persistência; **Dynamic Programming**: melhor rota/horário com grafo; **Network**: rede segmentada da UBS; **Agile**: persona, backlog e protótipo; **AR-VR**: simulação 3D da sala de espera |
 | **Link do repositório** | https://github.com/PedroH-Batista/GS_Data_Science |
 | **API em produção (Render)** | https://gs-data-science.onrender.com/docs |
-| **Integrantes** | Bernardo Moreira (RM: 564103) · Pedro Batista (RM: 563220) · Larissa Shiba (RM: 560462) · Renan Jordão (RM: 560618) |
+| **Integrantes** | Bernardo Moreira (RM: 564103) · Larissa Shiba Felix (RM: 560462) · Pedro Batista (RM: 563220) · Renan Jordão (RM: 560618) |
 | **Indicador de impacto** | Redução estimada do tempo médio de espera por visita (**−31,1 min / −52,4%** no conjunto de teste ao migrar do pico `07h–09h` para o Semáforo Verde) |
 | **ODS conectados** | **ODS 3** (Saúde e Bem-Estar), **ODS 10** (Redução das Desigualdades) e **ODS 11** (Cidades e Comunidades Sustentáveis) |
 

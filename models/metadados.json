@@ -2,12 +2,12 @@
   "projeto": "Fila Invisível — FIAP Global Solution 2026.2 (CitizenTech)",
   "ubs": {
     "id_ubs": 1,
-    "nome_ubs": "UBS Cambuci",
-    "bairro": "Cambuci",
+    "nome_ubs": "UBS Vila Leopoldina",
+    "bairro": "Vila Leopoldina",
     "cidade": "São Paulo - SP",
-    "capacidade_ubs": 40
+    "capacidade_ubs": 60
   },
-  "data_treino": "2026-11-19 17:36",
+  "data_treino": "2026-11-19 18:49",
   "seed": 42,
   "limiar_lotacao_min": 45.0,
   "limiar_classificacao_logistica": 0.4224,
