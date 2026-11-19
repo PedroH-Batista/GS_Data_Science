@@ -1,0 +1,7 @@
+caso,indice_original,temperatura_c,medicos_escala,mes_sin,mes_cos,eh_pos_feriado,campanha_vacinacao,chuva,especialidade,dia_semana,hora,tempo_real,tempo_previsto,lotada_real,prob_lotacao,semaforo,mes
+Vermelho — lotação alta confiança (VP),12599,9.3,2.0,-1.0,-1.8369701987210297e-16,1,0,0,Clinica Medica,1,8,86.3,95.95308308449555,1,0.9999603861418366,Vermelho,9
+Verde — UBS tranquila alta confiança (VN),12593,,3.0,-1.0,-1.8369701987210297e-16,0,0,1,Vacinacao,4,18,4.0,3.651268918355683,0,0.0002967892876920898,Verde,9
+Amarelo — zona intermediária,13776,22.4,3.0,-0.8660254037844386,0.5000000000000001,0,1,1,Odontologia,0,15,45.7,46.852600026113635,1,0.5500765032337913,Amarelo,10
+Caso difícil — Falso Negativo (FN),13895,27.2,4.0,-0.8660254037844386,0.5000000000000001,0,1,1,Enfermagem,2,15,50.2,24.753509944578532,1,0.014922969293113755,Verde,10
+Caso difícil — Falso Positivo (FP),14711,18.8,1.0,-0.8660254037844386,0.5000000000000001,0,1,0,Odontologia,2,10,44.3,65.84738057841106,0,0.9840502986109516,Vermelho,10
+Pico extremo de espera real,12594,8.6,2.0,-1.0,-1.8369701987210297e-16,1,0,0,Clinica Medica,1,7,100.2,89.7348527828563,1,0.9998224664904144,Vermelho,9

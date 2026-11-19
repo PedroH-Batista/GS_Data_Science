@@ -1,0 +1,75 @@
+{
+  "projeto": "Fila Invisível — FIAP Global Solution 2026.2 (CitizenTech)",
+  "ubs": {
+    "id_ubs": 1,
+    "nome_ubs": "UBS Cambuci",
+    "bairro": "Cambuci",
+    "cidade": "São Paulo - SP",
+    "capacidade_ubs": 40
+  },
+  "data_treino": "2026-11-19 17:36",
+  "seed": 42,
+  "limiar_lotacao_min": 45.0,
+  "limiar_classificacao_logistica": 0.4224,
+  "semaforo": {
+    "verde_max": 0.4,
+    "amarelo_max": 0.7
+  },
+  "features_modelo": [
+    "temperatura_c",
+    "medicos_escala",
+    "mes_sin",
+    "mes_cos",
+    "eh_pos_feriado",
+    "campanha_vacinacao",
+    "chuva",
+    "especialidade",
+    "dia_semana",
+    "hora"
+  ],
+  "especialidades_validas": [
+    "Clinica Medica",
+    "Enfermagem",
+    "Odontologia",
+    "Pediatria",
+    "Vacinacao"
+  ],
+  "horarios_funcionamento": {
+    "inicio": 7,
+    "fim": 18,
+    "dias_uteis": "Segunda (0) a Sexta (4)"
+  },
+  "medianas_treino": {
+    "temperatura_c": 21.6,
+    "medicos_escala": 2.0
+  },
+  "metricas_regressao_linear": {
+    "cv": {
+      "MAE_min": 7.520713748966036,
+      "RMSE_min": 9.576410217719053,
+      "R2_media": 0.7136197632626692,
+      "R2_dp": 0.09652924439660036
+    },
+    "teste": {
+      "MAE (min)": 7.356546073600141,
+      "RMSE (min)": 9.138572762743973,
+      "R²": 0.7491548128074006
+    }
+  },
+  "metricas_regressao_logistica": {
+    "cv": {
+      "Precisao": 0.8703081584668773,
+      "Recall": 0.8098349727899944,
+      "F1": 0.8354246341402792,
+      "ROC_AUC": 0.9314843826288353,
+      "PR_AUC": 0.9360899452565766
+    },
+    "teste": {
+      "Precisão": 0.7680097680097681,
+      "Recall": 0.9284132841328413,
+      "F1": 0.8406281323087204,
+      "ROC-AUC": 0.9413881182607446,
+      "PR-AUC": 0.9345790925395334
+    }
+  }
+}
